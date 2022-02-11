@@ -1,0 +1,67 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  background-color: rgb(3, 51, 77);
+  border-radius: 5px;
+  box-shadow: 3px 8px 3px #282727c6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  padding: 20px;
+  align-items: center;
+}
+
+.history {
+  color: blanchedalmond;
+
+  bottom: -50px;
+  top: 50%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(177, 122, 4);
+  border-radius: 5px;
+
+  box-shadow: 3px 8px 3px #282727c6;
+  padding: 20px;
+  margin: 30px;
+  max-width: 500px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: blanchedalmond;
+}
+
+.bio {
+  text-align: center;
+  color: rgb(177, 175, 175);
+  margin-top: 16px;
+}
+
+.waveButton {
+  width: 200px;
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+}
+.waveButton:hover {
+  background-color: #bcb7f5;
+  transition: 0.5s;
+}
+.waveButton:active {
+  background-color: #ffbf00;
+}
